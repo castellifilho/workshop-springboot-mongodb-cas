@@ -1,10 +1,8 @@
 package com.castelli.workshopmongo.services;
 
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import com.castelli.workshopmongo.domain.User;
 import com.castelli.workshopmongo.repository.UserRepository;
 
@@ -17,5 +15,4 @@ public class UserService {
 	public List<User> findAll() {
 		return repo.findAll();
 	}
-
 }
