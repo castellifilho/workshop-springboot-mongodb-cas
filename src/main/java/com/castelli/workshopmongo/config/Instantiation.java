@@ -1,11 +1,9 @@
 package com.castelli.workshopmongo.config;
 
 import java.util.Arrays;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
-
 import com.castelli.workshopmongo.domain.User;
 import com.castelli.workshopmongo.repository.UserRepository;
 
