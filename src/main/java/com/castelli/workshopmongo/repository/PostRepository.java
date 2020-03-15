@@ -6,4 +6,5 @@ import com.castelli.workshopmongo.domain.Post;
 
 @Repository
 public interface PostRepository extends MongoRepository<Post, String> {
+	
 }
